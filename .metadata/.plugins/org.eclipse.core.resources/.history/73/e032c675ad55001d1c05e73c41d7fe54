@@ -1,0 +1,13 @@
+package com.abc.practice.testcode;
+
+public class CountRepeatCharacter {
+	public static void main(String[] args) {
+//		String str = "my name is rustam ali";
+		StringBuilder str=new StringBuilder("my name is rustam ali");
+		for (int i = 0; i < 3; i++) {
+			str.append(str);
+		}
+		System.out.println(str);
+		
+	}
+}

@@ -1,0 +1,12 @@
+package com.fullcreative.datetime;
+
+import java.util.Calendar;
+
+public class CalenderClass {
+
+	public static void main(String[] args) {
+
+		Calendar instance = Calendar.getInstance();
+		System.out.println(instance);
+	}
+}

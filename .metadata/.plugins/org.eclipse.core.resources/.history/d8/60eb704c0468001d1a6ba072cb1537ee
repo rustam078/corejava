@@ -1,0 +1,29 @@
+package com.abc.practice;
+
+
+
+class sum1 {
+
+	 private String name;
+	private String pass ;
+	
+	
+
+	
+	
+}
+
+
+
+public class sum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		sum1 sum1 = new sum1();
+
+		
+		System.out.println(sum1.getName());
+		System.out.println(sum1.getPass());
+		System.out.println(sum1.name);
+	}
+}

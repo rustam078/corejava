@@ -1,0 +1,21 @@
+package com.abc.practice;
+
+import java.util.Scanner;
+
+class sum1 {
+
+	String name = "rustam";
+	String pass = "Ali";
+}
+
+public class sum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		sum1 sum1 = new sum1();
+
+		System.out.println(sum1.name);
+		System.out.println(sum1.pass);
+
+	}
+}

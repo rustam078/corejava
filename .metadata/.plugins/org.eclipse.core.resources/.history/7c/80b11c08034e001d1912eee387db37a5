@@ -1,0 +1,33 @@
+package com.abc.rustam.collection.ArrayList;
+
+public class MyClass {
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	public static void main(String[] args) {
+		
+		
+		List  myArrayList= new MyArrayList();
+		myArrayList.add(1900);
+		myArrayList.add(13420);
+		myArrayList.add(154);
+		myArrayList.add(150);
+		myArrayList.add(2435);
+
+		myArrayList.add("rusady");
+		myArrayList.add("rusady");
+		myArrayList.add("rusady");
+		
+		System.out.println(myArrayList.length());
+		
+//		System.out.println(myArrayList.get(-2));
+		System.out.println(myArrayList.search(120));
+		System.out.println(myArrayList);
+		System.out.println(myArrayList.remove(0));
+		System.out.println(myArrayList.remove(0));
+		System.out.println(myArrayList);
+		System.out.println(myArrayList.remove(4));
+		System.out.println(myArrayList);
+		System.out.println(myArrayList.length());
+//		System.out.println(myArrayList.remove(4));
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.fullcreative.datetime;
+
+import java.util.Calendar;
+
+public class CalenderClass {
+
+	public static void main(String[] args) {
+
+		Calendar instance = Calendar.getInstance();
+		System.out.println(instance);
+		System.out.println(instance.getTime());
+		System.out.println(instance.getTimeZone().getID());
+		System.out.println(instance.getCalendarType());
+		System.out.println(instance.getTime());
+	
+		Calendar instance2 = Calendar.getInstance();
+	}
+}

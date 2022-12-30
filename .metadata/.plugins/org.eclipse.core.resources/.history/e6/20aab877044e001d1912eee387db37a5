@@ -1,0 +1,23 @@
+package com.abc.rustam.collection.ArrayList;
+
+public class MyClass {
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	public static void main(String[] args) {
+
+		List myArrayList = new MyArrayList();
+	
+		myArrayList.add("hfdgf");
+		myArrayList.add(100);
+		myArrayList.add(101);
+		myArrayList.add(102);
+		myArrayList.add(103);
+		myArrayList.add(104);
+		myArrayList.add(105);
+		myArrayList.add(106);
+		for(int i=0;i<myArrayList.length();i++) {
+		System.out.print(myArrayList.get(i)"+\t");
+		}
+		
+	}
+
+}
